@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "budgetdb": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "budget",
+    "password": "709fada29a",
+    "name": "budgetdb",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

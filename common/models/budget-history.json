@@ -1,0 +1,32 @@
+{
+  "name": "BudgetHistory",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "balance": {
+      "type": "number",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "budget": {
+      "type": "belongsTo",
+      "model": "Budget",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
